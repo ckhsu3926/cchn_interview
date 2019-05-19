@@ -7,7 +7,7 @@ const CELL_TYPE={ "year":3,
 	"minute": 60
 };
 
-export default function InputProvider(props){
+export default function CellProvider(props){
 	let cell=props.cell,
 		date=props.date,
 		onCellChangeEvent=props.onCellChangeEvent,
