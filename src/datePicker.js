@@ -1,7 +1,6 @@
 import React from 'react';
 import CellProvider from './provider/CellProvider';
 import InputProvider from './provider/InputProvider';
-import './datePicker.css';
 
 export default class DatePicker extends React.Component {
 	constructor(props){
@@ -48,7 +47,7 @@ export default class DatePicker extends React.Component {
 			<div>
 				<InputProvider date={this.state.date} 
 					onSelectCell={this.onSelectCell}/>
-				<div>
+				<div style={{ textAlign:'center' }}>
 					<CellProvider cell={this.state.nowCell} 
 						date={this.state.date} 
 						onCellChangeEvent={this.onCellChange} />
