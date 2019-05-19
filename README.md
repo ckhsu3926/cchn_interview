@@ -18,10 +18,10 @@
 ### onCellChange()
 選擇項目時更新state中的date並依React Life Cycle重新render畫面
 
-##InputProvider.js
+## InputProvider.js
 ### InputProvider()
 欄位選項產生物件，同時顯示目前State中設定的日期時間
 
-##CellProvider.js
+## CellProvider.js
 ### CellProvider()
 點擊欄位時動態產生相對應的選項，點擊後設定State中的date並依React Life Cycle重新render畫面
